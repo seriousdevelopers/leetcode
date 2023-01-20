@@ -10,6 +10,6 @@ if [ "$REAL_BASE_DIR" == "$REAL_PWD" ] || [ "$REAL_BASE_DIR/build" == "$REAL_PWD
     exit 1
 fi
 
-echo Copying a Makefile if it does not exist
+echo Copying a Makefile if it does not exist...
 cp --no-clobber ${BASE_DIR}/template/Makefile ${PWD}/Makefile
 
